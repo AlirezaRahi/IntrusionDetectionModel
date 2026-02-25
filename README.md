@@ -175,7 +175,7 @@ If you use this code or the model in your research, please cite:
   title={An Enhanced CNN-Bidirectional LSTM Model for Real-Time Multi-Class Attack Detection in Network Traffic},
   author={Rahi, Alireza},
   journal={},
-  year={2025},
+  year={2026},
   note={Available at: https://github.com/AlirezaRahi/IntrusionDetectionModel}
 }
 ```
