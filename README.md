@@ -1,5 +1,3 @@
-
-```markdown
 # 🛡️ CNN-BiLSTM Intrusion Detection System  
 ### Multi-Class Network Attack Detection Using Deep Learning
 
@@ -51,6 +49,7 @@ This project uses the **Farm-Flow | AG-IoT Security Dataset**, designed for intr
 
 ## 🏗️ Model Architecture
 
+
 ```
 
 Input (10, 88)
@@ -70,6 +69,7 @@ Dense (128) → Dropout(0.4)
 Dense (9, Softmax)
 
 ````
+
 
 **Total Parameters:** 767,689  
 
@@ -120,7 +120,6 @@ Dense (9, Softmax)
 ```bash
 git clone https://github.com/AlirezaRahi/IntrusionDetectionModel.git
 cd IntrusionDetectionModel
-````
 
 ---
 
