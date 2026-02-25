@@ -1,0 +1,12 @@
+Test Accuracy: 0.9955
+
+Class-wise Accuracy:
+Arp_Spoofing: 0.0000
+BotNet_DDOS: 0.0000
+HTTP_Flood: 0.9987
+ICMP_Flood: 0.0000
+MQTT_Flood: 0.9964
+Normal: 0.9910
+Port_Scanning: 0.0000
+TCP_Flood: 0.9960
+UDP_Flood: 0.9954
