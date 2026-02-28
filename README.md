@@ -1,4 +1,4 @@
-# 🛡️ CNN-BiLSTM Intrusion Detection System  
+#  CNN-BiLSTM Intrusion Detection System  
 ### Multi-Class Network Attack Detection Using Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
@@ -8,8 +8,23 @@
 [![Dataset](https://img.shields.io/badge/Dataset-FarmFlow-blueviolet)](https://zenodo.org/records/10964648)
 
 ---
+## Preprint Information
+##### This project is based on the research preprint:
 
-## 📌 Overview
+###### Submitted to TechRxiv: 25 Feb 2026
+
+###### Published in TechRxiv: 27 Feb 2026
+
+## Cite as:
+###### Alireza Rahi. "An Enhanced CNN-Bidirectional LSTM Model for Real-Time Multi-Class Attack Detection in Network Traffic." TechRxiv. February 27, 2026.
+
+###### DOI: 10.36227/techrxiv.177222683.35457563/v1
+ 
+Note: e-Prints posted on TechRxiv are preliminary reports that are not peer reviewed. They should not be regarded as conclusive, guide clinical practice/health-related behavior, or be reported in the media as established information.
+
+
+
+##  Overview
 
 This repository provides the implementation of an **Enhanced CNN-Bidirectional LSTM (CNN-BiLSTM) model** for real-time multi-class intrusion detection in network traffic.
 
@@ -21,19 +36,19 @@ The hybrid architecture combines:
 
 The model achieves:
 
-- ✅ **99.55% Overall Accuracy**
-- 📊 **0.99 Weighted F1-Score**
-- ⚖️ Performance evaluation on minority attack classes
+-  **99.55% Overall Accuracy**
+-  **0.99 Weighted F1-Score**
+-  Performance evaluation on minority attack classes
 
 ---
 
-## 📚 Dataset
+##  Dataset
 
 This project uses the **Farm-Flow | AG-IoT Security Dataset**, designed for intrusion detection in smart agriculture environments.
 
-- 🔗 Source: https://zenodo.org/records/10964648  
-- 📦 Size: 1.31M instances (~532 MB)  
-- 🎯 Classes: 8 attack types + Normal  
+-  Source: https://zenodo.org/records/10964648  
+-  Size: 1.31M instances (~532 MB)  
+-  Classes: 8 attack types + Normal  
 
 ### Attack Types:
 - Arp Spoofing  
@@ -47,7 +62,7 @@ This project uses the **Farm-Flow | AG-IoT Security Dataset**, designed for intr
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 
 ```
@@ -75,9 +90,9 @@ Dense (9, Softmax)
 
 ---
 
-## 📊 Results
+##  Results
 
-### 🔹 Overall Performance
+###  Overall Performance
 
 | Metric | Score |
 |--------|-------|
@@ -89,7 +104,7 @@ Dense (9, Softmax)
 
 ---
 
-### 🔹 Confusion Matrix
+###  Confusion Matrix
 
 <p align="center">
   <img src="data/checkpoints/confusion_matrix.png" width="600">
@@ -97,7 +112,7 @@ Dense (9, Softmax)
 
 ---
 
-### 🔹 Training Curves
+###  Training Curves
 
 <p align="center">
   <img src="data/checkpoints/training_history.png" width="800">
@@ -105,17 +120,10 @@ Dense (9, Softmax)
 
 ---
 
-### 🔹 ROC Curves
 
-<p align="center">
-  <img src="roc_curves.png" width="600">
-</p>
+##  Getting Started
 
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/AlirezaRahi/IntrusionDetectionModel.git
@@ -123,7 +131,7 @@ cd IntrusionDetectionModel
 
 ---
 
-### 2️⃣ Create Virtual Environment
+###  Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -145,7 +153,7 @@ source venv/bin/activate
 
 ---
 
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -153,7 +161,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Download Dataset
+###  Download Dataset
 
 Download from Zenodo and extract inside:
 
@@ -163,7 +171,7 @@ data/raw/
 
 ---
 
-### 5️⃣ Run Training
+###  Run Training
 
 ```bash
 python main.py
@@ -171,7 +179,7 @@ python main.py
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 IntrusionDetectionModel/
@@ -195,7 +203,7 @@ IntrusionDetectionModel/
 
 ---
 
-## 📈 Output Files
+##  Output Files
 
 After training:
 
@@ -206,7 +214,7 @@ After training:
 
 ---
 
-## 📖 Citation
+##  Citation
 
 If you use this work, please cite:
 
@@ -218,6 +226,17 @@ If you use this work, please cite:
   publisher = {GitHub},
   url = {https://github.com/AlirezaRahi/IntrusionDetectionModel}
 }
+
+@article{rahi2026enhanced,
+  author = {Alireza Rahi},
+  title = {An Enhanced CNN-Bidirectional LSTM Model for Real-Time Multi-Class Attack Detection in Network Traffic},
+  journal = {TechRxiv},
+  year = {2026},
+  month = {February},
+  doi = {10.36227/techrxiv.177222683.35457563/v1},
+  url = {https://doi.org/10.36227/techrxiv.177222683.35457563/v1}
+}
+
 ```
 
 Dataset:
@@ -234,13 +253,13 @@ Dataset:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
 ---
 
-## 👤 Author
+##  Author
 
 **Alireza Rahi**
 
@@ -249,10 +268,7 @@ MIT License
 
 ---
 
-⭐ If you find this repository useful, please consider starring it.
+ If you find this repository useful, please consider starring it.
 
-```
-
----
  
 ```
